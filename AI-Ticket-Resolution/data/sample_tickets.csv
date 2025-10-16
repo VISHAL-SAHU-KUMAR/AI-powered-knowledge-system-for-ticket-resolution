@@ -1,0 +1,11 @@
+id,subject,description,priority,status,category
+1,"Password Reset","I can't access my account and need to reset my password",high,open,account_access
+2,"Billing Issue","My credit card was charged twice for the same subscription",high,open,billing
+3,"Feature Request","It would be great to have a dark mode option",low,open,feature_request
+4,"Bug Report","The application crashes when I try to upload a file",urgent,open,bug_report
+5,"Account Locked","My account has been locked and I can't log in",medium,open,account_access
+6,"Payment Method Update","I need to update my payment information",medium,open,billing
+7,"Subscription Cancellation","I want to cancel my subscription",low,open,billing
+8,"Data Export","I need to export all my personal data",medium,open,data
+9,"Delete Account","I want to delete my account permanently",medium,open,account_access
+10,"Performance Issue","The application is running very slowly",medium,open,bug_report

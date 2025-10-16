@@ -1,0 +1,10 @@
+question,answer,category
+"How do I reset my password?","To reset your password, go to the login page and click on 'Forgot Password'. Enter your email address and follow the instructions sent to your inbox.","account_access"
+"My account is locked","If your account is locked, please contact our support team at support@example.com or call our helpline at 1-800-123-4567.","account_access"
+"How do I update my payment method?","You can update your payment method by going to Account Settings > Billing > Payment Methods. Click 'Add Payment Method' to add a new card.","billing"
+"Why was my payment declined?","Payments can be declined for several reasons: insufficient funds, expired card, or incorrect billing information. Please check your details and try again or contact your bank.","billing"
+"How do I cancel my subscription?","To cancel your subscription, go to Account Settings > Subscription and click 'Cancel Subscription'. Your subscription will remain active until the end of the current billing period.","billing"
+"How do I report a bug?","To report a bug, please go to Help > Report a Bug and fill out the form with details about the issue including steps to reproduce, expected behavior, and actual behavior.","bug_report"
+"I have a feature request","We'd love to hear your feature requests! Please go to Help > Feature Request and describe what you'd like to see in our product.","feature_request"
+"How do I export my data?","To export your data, go to Account Settings > Privacy > Data Export. Select the data types you want to export and click 'Request Export'.","data"
+"How do I delete my account?","To delete your account, go to Account Settings > Privacy > Delete Account. Follow the instructions to confirm account deletion. Note that this action is irreversible.","account_access"

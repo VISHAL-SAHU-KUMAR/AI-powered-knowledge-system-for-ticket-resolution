@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Ticket Resolution System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI Ticket Resolution System</h1>
+            <p>Submit your support tickets and get instant AI-powered responses</p>
+        </header>
+
+        <main>
+            <section class="ticket-form">
+                <h2>Submit a New Ticket</h2>
+                <form id="ticketForm">
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="description">Description:</label>
+                        <textarea id="description" name="description" rows="5" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="priority">Priority:</label>
+                        <select id="priority" name="priority">
+                            <option value="low">Low</option>
+                            <option value="medium">Medium</option>
+                            <option value="high">High</option>
+                            <option value="urgent">Urgent</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit">Submit Ticket</button>
+                </form>
+            </section>
+
+            <section class="ai-response">
+                <h2>AI Response</h2>
+                <div id="responseContainer">
+                    <p>Submit a ticket to get an AI-powered response...</p>
+                </div>
+            </section>
+
+            <section class="ticket-history">
+                <h2>Your Tickets</h2>
+                <div id="ticketList">
+                    <p>No tickets found. Submit your first ticket!</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
